@@ -1,0 +1,40 @@
+<div style="float:left; width:100%">
+  <canvas
+      height="250"
+      baseChart
+      [plugins]="barChartPlugins"
+      [data]="barChartData"
+      [options]="barChartOptions"
+      [type]="barChartType">
+    </canvas>
+</div>
+<div style="float:left; width:100%">
+  <canvas
+  height="400"
+  baseChart
+      [data]="singleBarChartData"
+      [options]="singleBarChartOptions"
+      [type]="singleBarChartType">
+    </canvas>
+</div>
+<div style="float:left; width:100%">
+  <canvas
+  height="180"
+  baseChart
+  [plugins]="pieChartPlugins"
+      [data]="pieChartData"
+      [options]="pieChartOptions"
+      [type]="pieChartType">
+    </canvas>
+</div>
+<div style="float:left; width:100%">
+  <canvas
+  height="400"
+  id="strBarChart"
+  baseChart
+  [plugins]="lineChartPlugins"
+      [data]="lineChartData"
+      [options]="lineChartOptions"
+      [type]="lineChartType">
+    </canvas>
+</div>
