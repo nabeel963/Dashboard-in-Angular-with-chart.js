@@ -1,4 +1,5 @@
 # Line chart, Pie chart, Bar chart in Chart.js
+![pieChart](https://github.com/nabeel963/Dashboard-in-Angular-with-chart.js/assets/57612547/5292c614-fcff-4e85-ad51-ed1662016773)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.11.
 
